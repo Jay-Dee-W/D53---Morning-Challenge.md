@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F806A;
+    position: relative;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    background: white;
+    padding: 2rem;
+
+}
+
+.card button {
+    width: 12rem;
+    height: 3rem;
+
+    padding: 1rem;
+    margin: 1.5rem;
+    cursor: pointer;
+}
+
+.alert, .message {
+    padding: 15px;
+    background: #EB4748;
+    border: none;
+    border-radius:7px;
+    color: #ffff;
+    position: absolute;
+    top: 0;
+}
+
+.message {
+    background: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.message:hover {
+    cursor: pointer;
+}
+
+.alert:hover {
+    cursor: pointer;
+}
